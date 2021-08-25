@@ -14,10 +14,11 @@ def encode(str):
                     outputList.append(txt) 
                     c = 0
                     continue 
-        
+            
+            
     print("The string is",outputList)
 
-n = ["A","A","A","B","C","C","A","A"]
+n = ["A","A","A","B","B","C","A","A"]
 encode(n)
 #output should be 2Ab3C2A
 
